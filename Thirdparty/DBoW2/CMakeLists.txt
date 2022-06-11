@@ -27,6 +27,13 @@ set(HDRS_DUTILS
 set(SRCS_DUTILS
   DUtils/Random.cpp
   DUtils/Timestamp.cpp)
+find_package(Qt5Core)
+find_package(Qt5Widgets)
+find_package(Qt5Test)
+find_package(Qt5OpenGL)
+find_package(Qt5Concurrent)
+find_package(Eigen3 3.3.0)
+list(APPEND CMAKE_INCLUDE_PATH "/usr/local/includei/eigen3")
 
 
 find_package(OpenCV 4 QUIET)

@@ -1,5 +1,19 @@
 # ORB-SLAM3
 
+### Preface
+This is a updated repo for the Odroid N2+ which equips 4 A72 and 2 A53 cores. The environment is set as followeing:
+
+Ubuntu 20.04.4, 5.13.0 kernel
+
+Opencv 4.4.0
+
+Eigen 3.3.0
+
+gcc 9.4.0
+
+c++ standard c++14
+
+
 ### V1.0, December 22th, 2021
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
 
